@@ -2,10 +2,7 @@ let btnb = document.querySelector("#btnb");
 let text1 = document.querySelector(".card-text");
 let imgc = document.querySelector(".card-img-top");
 
-let body = document.querySelector("body");
-(() => {
-  body.style.backgroundColor = "black";
-})();
+
 
 let URL = "https://cat-fact.herokuapp.com/facts";
 let facts = async () => {
